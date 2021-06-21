@@ -16,9 +16,9 @@ def visualize_images(*imgs):
         else:
             img = np.rollaxis(img, 0, 3)
             ax[idx].imshow(img)
-
-
-
+        ax[idx].show()
+        
+            
 def visualize_kernel_slice(K, coordinate):
     w, h, w, h = K.shape
     x = np.array(list(range(w)))
@@ -31,3 +31,4 @@ def visualize_kernel_slice(K, coordinate):
     plt.colorbar()
     plt.ylim(max(plt.ylim()), min(plt.ylim()))
     plt.title('Kernel at Coordinate: (' + str(r) +  ',' + str(c) + ')')
+    plt.show()

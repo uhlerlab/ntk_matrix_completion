@@ -52,7 +52,8 @@ def visualize_corrupted_image(clean_img, corrupted_img):
         ax[0].imshow(clean_image)
         ax[0].axis("off")
         ax[1].imshow(vis_corrupted)
-        ax[1].axis("off")        
+        ax[1].axis("off")
+
     else:
         vis_corrupted = corrupted_img[0]
         clean_image = clean_img[0]
@@ -61,4 +62,6 @@ def visualize_corrupted_image(clean_img, corrupted_img):
         ax[0].axis("off")    
         ax[1].imshow(1-vis_corrupted, cmap=cmap)
         ax[1].axis("off")
-
+    ax[0].show()
+    ax[1].show()
+    
