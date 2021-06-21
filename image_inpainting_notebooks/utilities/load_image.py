@@ -62,6 +62,5 @@ def visualize_corrupted_image(clean_img, corrupted_img):
         ax[0].axis("off")    
         ax[1].imshow(1-vis_corrupted, cmap=cmap)
         ax[1].axis("off")
-    ax[0].show()
-    ax[1].show()
+    plt.show()
     

@@ -16,7 +16,7 @@ def visualize_images(*imgs):
         else:
             img = np.rollaxis(img, 0, 3)
             ax[idx].imshow(img)
-        ax[idx].show()
+    plt.show()
         
             
 def visualize_kernel_slice(K, coordinate):
