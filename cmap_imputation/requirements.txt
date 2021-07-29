@@ -1,0 +1,20 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+auto-tqdm=1.0.3=pypi_0
+notebook=6.2.0=py38h06a4308_0
+numba=0.53.0=py38ha9443f7_0
+numpy=1.19.2=py38h54aff64_0
+numpy-base=1.19.2=py38hfa32c7d_0
+p-tqdm=1.3.3=pypi_0
+packaging=20.9=pyhd3eb1b0_0
+pandas=1.1.2=pypi_0
+python=3.8.5=h1103e12_9_cpython
+scikit-learn=0.23.2=py38h0573a6f_0
+scipy=1.6.2=pypi_0
+seaborn=0.11.0=pypi_0
+statsmodels=0.12.2=pypi_0
+torch=1.8.0=pypi_0
+torchfile=0.1.0=py_0
+torchvision=0.7.0=py38_cu92
+tornado=6.1=py38h27cfd23_0
+tqdm=4.59.0=pyhd3eb1b0_1
